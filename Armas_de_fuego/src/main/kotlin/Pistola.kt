@@ -17,6 +17,6 @@ class Pistola(
     override val municionARestar: Int = 1
     init {
         require(this.danio in 1..5) {"El daño debe ser entre 1 y 5"}
-        require(this.radio == TipoRadio.Reducido || this.radio == TipoRadio.Corto) {"El radio debe ser reducido o corto"}
+        require(this.radio == TipoRadio.REDUCIDO || this.radio == TipoRadio.CORTO) {"El radio debe ser reducido o corto"}
     }
 }

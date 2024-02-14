@@ -17,6 +17,6 @@ class Bazooka(
     override val municionARestar: Int = 1
     init {
         require(this.danio in 10..30) {"El daño debe ser entre 10 y 30"}
-        require(this.radio == TipoRadio.Intermedio || this.radio == TipoRadio.Amplio || this.radio == TipoRadio.Enorme) {"El radio debe estar entre intermedio y enorme"}
+        require(this.radio == TipoRadio.INTERMEDIO || this.radio == TipoRadio.AMPLIO || this.radio == TipoRadio.ENORME) {"El radio debe estar entre intermedio y enorme"}
     }
 }

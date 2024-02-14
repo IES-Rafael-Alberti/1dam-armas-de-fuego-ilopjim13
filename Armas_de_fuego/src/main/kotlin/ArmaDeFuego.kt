@@ -46,7 +46,7 @@ abstract class ArmaDeFuego(private val nombre :String,
      * la munición a restar y si aún así tampoco puede devolverá un texto diciendo que no se pudo recargar
      * @return String devuelve el texto diciendo si ha recargado o no
      */
-    fun recarga() : String {
+    private fun recarga() : String {
         return if (cantidadMunicionExtra - (municionARestar * 2) >= 0) {
             cantidadMunicionExtra -= (municionARestar * 2)
             municion += municionARestar * 2
