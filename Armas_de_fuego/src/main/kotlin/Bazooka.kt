@@ -1,3 +1,12 @@
+/**
+ * Clase hija de ArmaDeFuego.
+ * @param nombre :String nombre del tipo de arma
+ * @param municion :Int cantidad de municion del arma
+ * @param tipoDeMunicion :String tipo de municion que utiliza el arma
+ * @param danio :Int Daño del arma
+ * @param radio :TipoRadio indica el radio del arma
+ * @param municionARestar :Int municion que gasta el arma cada vez que dispara
+ */
 class Bazooka(
     municion: Int,
     tipoDeMunicion: String,
